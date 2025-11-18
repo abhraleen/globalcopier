@@ -25,12 +25,24 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#004d40", // Dark green from logo
+          DEFAULT: "#1B4FFF", // Royal Blue - trust + professional
           foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#00796b", // Lighter green
+          DEFAULT: "#0A0A0A", // Deep Black - premium finish
           foreground: "#ffffff",
+        },
+        accent: {
+          DEFAULT: "#E0ECFF", // Sky Blue - soft calming CTAs
+          foreground: "#0A0A0A",
+        },
+        success: {
+          DEFAULT: "#2ECC71",
+          foreground: "#ffffff",
+        },
+        warning: {
+          DEFAULT: "#F1C40F",
+          foreground: "#0A0A0A",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -39,10 +51,6 @@ export default {
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -54,9 +62,19 @@ export default {
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        lg: "18px",
+        md: "16px",
+        sm: "14px",
+        xl: "20px",
+      },
+      fontFamily: {
+        heading: ['"Poppins"', 'sans-serif'],
+        body: ['"Inter"', 'sans-serif'],
+      },
+      boxShadow: {
+        'soft': '0 4px 20px rgba(0, 0, 0, 0.05)',
+        'medium': '0 8px 30px rgba(0, 0, 0, 0.08)',
+        'strong': '0 12px 40px rgba(0, 0, 0, 0.12)',
       },
     },
   },

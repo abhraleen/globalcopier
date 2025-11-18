@@ -1,10 +1,12 @@
 export const theme = {
   colors: {
-    primary: "#0056D2",
-    secondary: "#FFFFFF", 
-    accent: "#28A745",
-    text: "#333333",
-    background: "#F8F9FA",
+    primary: "#1B4FFF", // Royal Blue - trust + professional
+    secondary: "#0A0A0A", // Deep Black - premium finish
+    background: "#FFFFFF", // Pure White - clean interface
+    accent: "#E0ECFF", // Sky Blue - soft calming CTAs
+    success: "#2ECC71",
+    warning: "#F1C40F",
+    text: "#0A0A0A", // Deep Black text
     border: "#E9ECEF"
   }
 };
