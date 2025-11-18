@@ -47,4 +47,6 @@ const Index = () => {
   );
 };
 
+console.log('Index page loaded successfully');
+
 export default Index;
